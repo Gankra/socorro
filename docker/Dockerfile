@@ -3,7 +3,7 @@
 # =========================================================================
 
 # https://hub.docker.com/_/rust/
-FROM rust:1.58.1-buster@sha256:311d05f3823e7430bfeb2a743cd1a7895b05db643622d8d38ce18bffa2fa63bf as rustminidump
+FROM rust:1.59.0-buster@sha256:81039679d18ba1f279312a0a02ef7b350e0a69bc7819d6e0f23bf2e352142dee as rustminidump
 
 RUN update-ca-certificates
 ARG groupid=10001
